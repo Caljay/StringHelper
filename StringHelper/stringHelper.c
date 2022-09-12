@@ -17,7 +17,7 @@ void customStrC(char* des, char* source) {
 
 
 
-     std::cout << i;
+     printf("\i", i);
      *des = *source;
 
 }
@@ -47,15 +47,9 @@ int getStringLength(char* inputStr) {
 }
 int main(void) {
 
-     std::string mystring = "Hello World";
      char hi[50] = "Hello      ";
      char des[6];
-
-     std::cout << "Enter stuff" << std::endl;
-     std::cin >> hi;
-
-     std::cout << "\nsource is: " << getStringLength(hi) << std::endl;
-     std::cout << sizeof(hi);
+    
      getc(NULL);
      return 0;
 
